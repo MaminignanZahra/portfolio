@@ -163,6 +163,19 @@ a:active {
         width: 100%;
     }
 }
+@media only screen and (max-width: 767px) {
+    /* Vos styles CSS pour les petits écrans vont ici */
+    .carousel-caption {
+        top: 100%;
+        text-align: center;
+        font-size: 10px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+
+  }
+  
 
 /* Ajustements pour les écrans de taille moyenne (768px - 991px) */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -178,6 +191,33 @@ a:active {
 
     .progress-circle-container {
         margin: 15px;
+    }
+    .cont fa-solid{
+        font-size: 1em;
+    }
+    .cont div{
+        font-size: 10px;
+    }
+    .gal fas{
+        font-size: 1em;
+    }
+    .gal a{
+        font-size: 10px;
+
+    }
+    .hum{
+        font-size: 10px;
+        height: auto;
+
+    }
+    .bar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .carousel-item img{
+        max-height: 200px;
     }
 }
 
