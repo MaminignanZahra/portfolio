@@ -1,4 +1,4 @@
-/* Styles de base */
+
 
 .nav-item {
     display: flex;
@@ -18,21 +18,19 @@ li {
 * {
     background-color: #333333;
     box-sizing: border-box;
+   
 }
 
 a {
     color: white;
     text-decoration: none;
 }
-
 a:active {
     color: #ff0000; /* Couleur du texte pour les liens actifs */
 }
-
 a:visited {
-    color: #F5F5DC; /* Couleur du texte pour les liens visités */
+    color:#F5F5DC; /* Couleur du texte pour les liens visités */
 }
-
 a:hover {
     color: white !important;
     text-decoration: underline #E67E22 !important;
@@ -64,9 +62,11 @@ a:hover {
     background-color: #E67E22;
 }
 
+
+
 h3 {
     text-align: center;
-    color: #F5F5DC;
+    color:  #F5F5DC;
     font-weight: bold;
     font-size: 25px;
     margin: 5px;
@@ -122,8 +122,9 @@ a:active {
     padding: 20px;
 }
 
-/* Ajustements pour les petits écrans (max-width: 767px) */
-@media (max-width: 767px) {
+
+/* Ajustements pour les petits écrans (max-width: 411px) */
+@media (max-width: 411px) {
     .nav-item {
         margin: 0;
     }
@@ -133,9 +134,12 @@ a:active {
     }
 
     .carousel-caption {
-        top: 5%;
-        left: 2%;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         font-size: 16px;
+        width: 80%;
     }
 
     .fas-solid {
@@ -144,8 +148,8 @@ a:active {
     }
 }
 
-/* Ajustements pour les écrans de taille moyenne (768px - 991px) */
-@media (min-width: 768px) and (max-width: 991px) {
+/* Ajustements pour les écrans de taille moyenne (min-width: 600px) et (max-width: 768px) */
+@media (min-width: 600px) and (max-width: 768px) {
     .navbar-toggler {
         margin-right: 5px;
     }
@@ -157,8 +161,8 @@ a:active {
     }
 }
 
-/* Ajustements pour les grands écrans (min-width: 992px) */
-@media (min-width: 992px) {
+/* Ajustements pour les grands écrans (min-width: 1024px) et (max-width: 1920px) */
+@media (min-width: 1024px) and (max-width: 1920px) {
     .navbar-toggler {
         margin-right: 10px;
     }
@@ -169,3 +173,11 @@ a:active {
         font-size: 20px;
     }
 }
+
+
+
+
+
+
+
+
