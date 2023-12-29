@@ -1,4 +1,4 @@
-
+/* Styles de base */
 
 .nav-item {
     display: flex;
@@ -18,19 +18,21 @@ li {
 * {
     background-color: #333333;
     box-sizing: border-box;
-   
 }
 
 a {
     color: white;
     text-decoration: none;
 }
+
 a:active {
     color: #ff0000; /* Couleur du texte pour les liens actifs */
 }
+
 a:visited {
-    color:#F5F5DC; /* Couleur du texte pour les liens visités */
+    color: #F5F5DC; /* Couleur du texte pour les liens visités */
 }
+
 a:hover {
     color: white !important;
     text-decoration: underline #E67E22 !important;
@@ -62,11 +64,9 @@ a:hover {
     background-color: #E67E22;
 }
 
-
-
 h3 {
     text-align: center;
-    color:  #F5F5DC;
+    color: #F5F5DC;
     font-weight: bold;
     font-size: 25px;
     margin: 5px;
@@ -122,42 +122,34 @@ a:active {
     padding: 20px;
 }
 
-
-
 /* Ajustements pour les petits écrans (max-width: 767px) */
 @media (max-width: 767px) {
     .nav-item {
         margin: 0;
     }
-    .navbar-toggler {
-        margin-right: 0; /* Ajustement pour le bouton de la barre de navigation sur les petits écrans */
-    }
-}
 
-/* Ajustements pour les écrans de taille moyenne (768px - 991px) */
-@media (min-width: 768px) and (max-width: 991px) {
     .navbar-toggler {
-        margin-right: 5px; /* Ajustement pour le bouton de la barre de navigation sur les écrans de taille moyenne */
+        margin-right: 0;
     }
-}
 
-/* Ajustements pour les grands écrans (min-width: 992px) */
-@media (min-width: 992px) {
-    .navbar-toggler {
-        margin-right: 10px; /* Ajustement pour le bouton de la barre de navigation sur les grands écrans */
-    }
-}
-/* Ajustements pour les petits écrans (max-width: 767px) */
-@media (max-width: 767px) {
     .carousel-caption {
         top: 5%;
         left: 2%;
         font-size: 16px;
     }
+
+    .fas-solid {
+        text-align: center;
+        margin-top: 10px;
+    }
 }
 
 /* Ajustements pour les écrans de taille moyenne (768px - 991px) */
 @media (min-width: 768px) and (max-width: 991px) {
+    .navbar-toggler {
+        margin-right: 5px;
+    }
+
     .carousel-caption {
         top: 7%;
         left: 3%;
@@ -167,16 +159,13 @@ a:active {
 
 /* Ajustements pour les grands écrans (min-width: 992px) */
 @media (min-width: 992px) {
+    .navbar-toggler {
+        margin-right: 10px;
+    }
+
     .carousel-caption {
         top: 10%;
         left: 5%;
         font-size: 20px;
-    }
-}
-/* Ajustements pour les petits écrans (max-width: 767px) */
-@media (max-width: 767px) {
-    .fas-solid {
-        text-align: center;
-        margin-top: 10px; /* Ajustement de la marge pour les icônes sociales sur les petits écrans */
     }
 }
