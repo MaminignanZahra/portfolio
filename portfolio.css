@@ -1,4 +1,4 @@
-body{
+body {
     background: #333333;
 }
 
@@ -22,7 +22,7 @@ li {
     margin: 0;
     background-color: #333333;
     box-sizing: border-box;
-   
+
 }
 
 a {
@@ -44,7 +44,7 @@ a:hover {
 
     text-align: left;
     font-size: 20px;
-    margin:68px;
+    margin: 68px;
 }
 
 .carousel-indicators li {
@@ -63,7 +63,7 @@ a:hover {
 
 h3 {
     text-align: center;
-    color:  #F5F5DC;
+    color: #F5F5DC;
     font-weight: bold;
     font-size: 25px;
     margin: 5px;
@@ -76,7 +76,7 @@ h3 {
 a:focus {
     outline: none !important;
     border-color: transparent;
-   
+
 }
 
 .progress {
@@ -95,9 +95,9 @@ a:focus {
     margin: 15px;
     background-color: #92817a;
     color: white;
-    width: 80%; 
+    width: 80%;
 
-    
+
 }
 
 .hum p {
@@ -106,17 +106,49 @@ a:focus {
     font-size: 20px;
     padding: 20px;
 }
+
 .form-control:focus {
-    border-color: black; 
+    border-color: black;
     outline: none;
     box-shadow: none;
-  }
-  .btn:focus{
+}
+
+.btn:focus {
     box-shadow: none;
-  }
-  @media (max-width: 767px) {
-    form {
-      max-width: 100%;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.perso {
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .form-group {
+        max-width: 100%;
     }
-  }
-  
+
+    h3 {
+        text-align: center;
+    }
+
+    .cont {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .perso {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
