@@ -44,7 +44,7 @@ a:hover {
 
     text-align: left;
     font-size: 20px;
-    margin:65px;
+    margin:68px;
 }
 
 .carousel-indicators li {
@@ -114,3 +114,9 @@ a:focus {
   .btn:focus{
     box-shadow: none;
   }
+  @media (max-width: 767px) {
+    form {
+      max-width: 100%;
+    }
+  }
+  
